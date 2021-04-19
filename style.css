@@ -4,6 +4,7 @@
     --primary-color : #FDE68A;
     --secondary-color :#FEF3C7;
     --third-color :#FFFBEB;
+    --black : #2e2e2e;
 }
 
 body{
@@ -73,11 +74,41 @@ body{
 }
 
 .button{
-    border: 1px solid yellowgreen;
-    background-color: var(--primary-color);
+    border-radius: 0.5rem;;
     padding: 1rem;
     margin: 1rem;
     width: 400px;
     font-weight: bold;
     font-size: large;
 }
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--royal-blue);
+    border-top-right-radius: 1em;
+
+}
+
+/* .footer .link {
+    color: var(--royal-blue);
+} */
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0rem;
+    color: var(--third-color);
+}
+
+.link-primary {
+    background-color: var(--black);
+
+    color: var(--primary-color);
