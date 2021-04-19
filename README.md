@@ -1,2 +1,2 @@
-#The Banana Translater
+# The Banana Translater
 This is a translater for the banana language. This is a GUI webapp. It takes english text and processes it using an API to give an output in the Banana language that the Minions speak.
